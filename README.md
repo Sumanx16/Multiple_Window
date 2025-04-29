@@ -48,25 +48,9 @@ Built for developers and enthusiasts to explore advanced techniques in window sy
 
 ---
 
-## 🌐 (Optional) Deploy Online
-
-You can host this project for free using services like:
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-- [GitHub Pages](https://pages.github.com/)
-
-Example deployment steps (for Vercel):
-```bash
-npm install -g vercel
-vercel
-```
-✅ You will get a live link like `https://yourproject.vercel.app`
-
----
-
 ## 📷 Screenshots
 
-![Preview of 3D scene](screen_Recording1.gif)
+![Preview of 3D scene](Screen_Recording1.gif)
 
 ---
 
