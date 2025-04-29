@@ -66,7 +66,7 @@ vercel
 
 ## 📷 Screenshots
 
-*(Screen_Recording1.gif)*
+![Preview of 3D scene](screen_Recording1.gif)
 
 ---
 
