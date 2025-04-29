@@ -42,4 +42,4 @@ This project is open-sourced under the MIT License.
 - x.com/didntdrinkwater for this readme.
 
 ## Contact
-For more information and updates, follow [@_nonfigurativ_](https://x.com/Suman_kumar16) on Twitter.
+For more information and updates, follow [@SUman_kumar16](https://x.com/Suman_kumar16) on Twitter.
