@@ -1,45 +1,93 @@
-# Multiple Window 3D Scene using Three.js
+# 🧩 Multiple Window 3D Scene using Three.js
+
+This project demonstrates a **3D scene rendered using [Three.js](https://threejs.org/)** with **multi-window management** capabilities.
+
+Built for developers and enthusiasts to explore advanced techniques in window synchronization and 3D graphics rendering in web browsers.
+
+---
+
+## 🚀 Features
+- Render 3D cubes using **Three.js**.
+- Manage multiple browser windows dynamically.
+- Synchronize window data using **LocalStorage**.
+- Real-time update of objects based on window position and size.
+
+---
+
+## 🛠 Project Structure
+| File | Purpose |
+|:-----|:--------|
+| `index.html` | Entry point HTML file loading the scripts. |
+| `main.js` | Main logic for initializing Three.js scene and rendering. |
+| `WindowManager.js` | Class to manage window information and synchronization. |
+| `three.r124.min.js` | Minified Three.js library. |
+
+---
+
+## 🔥 How to Run Locally
+
+1. **Install Python** (if not installed):  
+   [Download Python](https://www.python.org/downloads/)
+
+2. **Navigate to project directory** using PowerShell or Command Prompt:
+   ```bash
+   cd "E:\WEB DEV\multiple window\multipleWindow3dScene-main"
+   ```
+
+3. **Start a local HTTP server**:
+   ```bash
+   python -m http.server 8000
+   ```
+
+4. **Open your browser** and visit:
+   ```
+   http://localhost:8000
+   ```
+
+✅ You will see the 3D scene rendered in the browser.
+
+---
+
+## 🌐 (Optional) Deploy Online
+
+You can host this project for free using services like:
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+Example deployment steps (for Vercel):
+```bash
+npm install -g vercel
+vercel
+```
+✅ You will get a live link like `https://yourproject.vercel.app`
+
+---
 
 ## 📷 Screenshots
 
-![Preview of 3D scene](Screen_Recording1.gif)
+*(Screen_Recording1.gif)*
 
-## Introduction
-This project demonstrates a unique approach to creating and managing a 3D scene across multiple browser windows using Three.js and localStorage. It's designed for developers interested in advanced web graphics and window management techniques.
+---
 
-## Features
-- 3D scene creation and rendering with Three.js.
-- Synchronization of 3D scenes across multiple browser windows.
-- Dynamic window management and state synchronization using localStorage.
+## 📚 Technologies Used
+- [Three.js](https://threejs.org/) — 3D rendering library
+- JavaScript (ES6 Modules)
+- HTML5
+- LocalStorage API (for window management)
 
-## Installation
-Clone the repository and open `index.html` in your browser to start exploring the 3D scene.
+---
 
-```
-git clone https://github.com/bgstaal/multipleWindow3dScene
-```
-## Usage
-The main application logic is contained within `main.js` and `WindowManager.js`. The 3D scene is rendered in `index.html`, which serves as the entry point of the application.
+## 📝 License
+This project is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Structure and Components
-- `index.html`: Entry point that sets up the HTML structure and includes the Three.js library and the main script.
-- `WindowManager.js`: Core class managing window creation, synchronization, and state management across multiple windows.
-- `main.js`: Contains the logic for initializing the 3D scene, handling window events, and rendering the scene.
-- `three.r124.min.js`: Minified version of the Three.js library used for 3D graphics rendering.
+---
 
-## Detailed Functionality
-- `WindowManager.js` handles the lifecycle of multiple browser windows, including creation, synchronization, and removal. It uses localStorage to maintain state across windows.
-- `main.js` initializes the 3D scene using Three.js, manages the window's resize events, and updates the scene based on window interactions.
+## 🙏 Acknowledgments
+- Thanks to the Three.js community for amazing documentation and examples.
+- Inspired by experimental multi-window graphics demos.
 
-## Contributing
-Contributions to enhance or expand the project are welcome. Feel free to fork the repository, make changes, and submit pull requests.
+---
 
-## License
-This project is open-sourced under the MIT License.
-
-## Acknowledgments
-- The Three.js team for their comprehensive 3D library.
-- x.com/didntdrinkwater for this readme.
-
-## Contact
-For more information and updates, follow [@SUman_kumar16](https://x.com/Suman_kumar16) on Twitter.
+## 📢 Important Notes
+> Always serve this project via a **local server** (`http://localhost:8000`) and **not by directly opening `index.html`** to avoid CORS and module loading issues.
