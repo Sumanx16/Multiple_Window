@@ -14,6 +14,12 @@ Built for developers and enthusiasts to explore advanced techniques in window sy
 
 ---
 
+## 📊 Visualization
+
+![Graphical Overview](graph.png)
+
+---
+
 ## 🛠 Project Structure
 | File | Purpose |
 |:-----|:--------|
